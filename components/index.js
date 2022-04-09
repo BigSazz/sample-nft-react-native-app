@@ -3,6 +3,8 @@ import FocusedStatusBar from "./FocusedStatusBar";
 import NFTcard from "./NFTcard";
 import { SubInfo, NFTTitle, EthPrice, ImageCmp, People, EndDate } from "./SubInfo";
 import { CircleButton, RectButton } from "./Button";
+import DetailsDesc from "./DetailsDesc";
+import DetailsBid from "./DetailsBid";
 
 export {
     HomeHeader,
@@ -15,5 +17,7 @@ export {
     EthPrice,
     ImageCmp,
     People,
-    EndDate
+    EndDate,
+    DetailsDesc,
+    DetailsBid
 }
