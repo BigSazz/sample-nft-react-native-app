@@ -4,7 +4,7 @@ import { backgroundColor } from 'react-native/Libraries/Components/View/ReactNat
 
 import { COLORS, FONTS, SIZES, assets } from '../constants';
 
-const HomeHeader = ({ onsearch }) => {
+const HomeHeader = ({ onSearch }) => {
   return (
     <View style={{
       backgroundColor: COLORS.primary,
@@ -62,7 +62,7 @@ const HomeHeader = ({ onsearch }) => {
           <TextInput 
             placeholder='Search NFTs'
             style={{ flex: 1 }}
-            onChangeText={onsearch}
+            onChangeText={onSearch}
           />
         </View>
       </View>
